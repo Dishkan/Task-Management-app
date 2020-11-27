@@ -1,0 +1,37 @@
+body {
+            font-family: 'Lato';
+        }
+        .fa-btn {
+            margin-right: 6px;
+        }
+		
+		#dragList {
+		text-align: center;
+		list-style-type: none; 
+		} 
+		
+		.grabbable {
+         cursor: move; /* fallback if grab cursor is unsupported */
+         cursor: grab;
+         cursor: -moz-grab;
+         cursor: -webkit-grab;
+         }
+
+        .grabbable:active {
+         cursor: grabbing;
+         cursor: -moz-grabbing;
+         cursor: -webkit-grabbing;
+         }
+		 
+		#dragList div 
+		{ 
+			margin: 0 4px 6px 4px; 
+			padding: 0.4em;			
+			display: inline-block; 
+		} 
+
+		.itemList 
+		{ 
+			border: 2px solid #ddd; 
+			width: 350px;	 
+		} 
