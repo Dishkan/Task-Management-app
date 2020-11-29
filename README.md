@@ -1,5 +1,5 @@
 For absolute beginners in laravel who want to learn it and make a first project.
-I improved Taylor Otwell's task management laravel app:)
+I improved Taylor Otwell's task management laravel app.
 
 #setup
 To setup the project, you need to open tasks.sql file within the laravel project and import it to
